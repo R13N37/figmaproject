@@ -1,0 +1,133 @@
+.wrapper {
+  padding-top: 47px;
+  width: 90%;
+  margin-left: 10%;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+}
+
+.rightSide {
+  width: 100%;
+  background: #e9c5c7;
+}
+
+.news {
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 154.4%;
+  padding: 70px 0 0 78px;
+}
+
+.goToNews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  padding-top: 11px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  padding-top: 30px;
+}
+
+.currentColor1 {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: url("../../assets/colors/color1.png");
+}
+
+.currentColor2 {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: url("../../assets/colors/color2.png");
+}
+
+.currentColor3 {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: url("../../assets/colors/color3.png");
+}
+
+.colorWrapper {
+  list-style: none;
+}
+
+.colorItem {
+  width: 24.5px;
+  height: 24.5px;
+  border-radius: 50px;
+}
+
+.patternItem1 {
+  background: url("../../assets/colors/pattern1.png");
+}
+
+.patternItem2 {
+  background: url("../../assets/colors/pattern2.png");
+}
+
+.patternItem3 {
+  background: url("../../assets/colors/pattern3.png");
+}
+
+.patternItem4 {
+  background: url("../../assets/colors/pattern4.png");
+}
+
+.patternItem5 {
+  background: url("../../assets/colors/pattern5.png");
+}
+
+.colorWrapper {
+  display: flex;
+  gap: 5px;
+  margin-left: -40px;
+}
+
+.pattern {
+  display: flex;
+  margin-right: -111px;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    padding-top: 47px;
+    width: 97%;
+    padding-right: 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 30px;
+  }
+
+  .rightSide {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 85px;
+  }
+}

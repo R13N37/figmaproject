@@ -1,0 +1,98 @@
+.wrapper {
+  overflow: hidden;
+  width: 80%;
+  height: 525px;
+  margin-top: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 73px 86px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.title {
+  font-size: 38px;
+  font-weight: 900;
+  letter-spacing: 10px;
+}
+
+.desc {
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.main {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 900;
+  width: 35%;
+}
+
+.description {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.sliderItem1 {
+  background: url("../../assets/images/lamel.png");
+  background-repeat: no-repeat;
+  height: 525px;
+  background-position: center;
+}
+
+.sliderItem2 {
+  background: url("../../assets/images/lamel.png");
+  background-repeat: no-repeat;
+  height: 525px;
+}
+
+.sliderItem3 {
+  background: url("../../assets/images/lamel.png");
+  background-repeat: no-repeat;
+  height: 525px;
+}
+
+.sliderItem4 {
+  background: url("../../assets/images/lamel.png");
+  background-repeat: no-repeat;
+  height: 525px;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 18px;
+  }
+
+  .desc {
+    font-size: 7px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .main {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 900;
+    width: 90%;
+  }
+}

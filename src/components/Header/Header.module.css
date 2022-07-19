@@ -1,0 +1,60 @@
+.wrapper {
+  width: 80%;
+  display: flex;
+  padding-top: 20px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  padding-top: 10px;
+  border-top: 2px solid black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemsWrapper {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-style: "Montserra", sans-serif;
+}
+
+.item {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.listIcon {
+  cursor: pointer;
+  width: 22px;
+  height: auto;
+}
+
+.itemCustomize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    display: flex;
+    padding-right: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .itemsWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,82 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.contact {
+  width: 293px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.desc {
+  font-size: 13px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.infoTitle {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.text {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.icons {
+  display: flex;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.iconsSocial {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    text-align: center;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
